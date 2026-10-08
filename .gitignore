@@ -1,0 +1,18 @@
+# IDE
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local secrets
+.env
+.env.*
+
+# Full Open Food Facts dump (~7.7GB). The sampled subset stays in the repo.
+data/food_full.parquet
+
+.DS_Store
